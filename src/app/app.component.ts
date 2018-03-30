@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My first angulr app ';
+  isNewUserSelcted : boolean = false;
+  selectNewUser(){
+    this.isNewUserSelcted = true;
+  }
 }
